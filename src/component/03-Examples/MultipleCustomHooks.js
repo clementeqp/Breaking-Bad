@@ -48,8 +48,8 @@ export const MultipleCustomHooks = () => {
             <footer className="
                 card text-dark bg-light mb-3
             ">
-                <h2 className="text-end">Clemente Quintana Pozo</h2>
-                <h4>Desarrollador de Aplicaciones Multiplataforma</h4>
+                <h4 className="text-end">Clemente Quintana Pozo</h4>
+                <h5>Desarrollador de Aplicaciones Multiplataforma</h5>
             </footer>
 
         </div>
