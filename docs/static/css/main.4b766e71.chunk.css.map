@@ -1,0 +1,1 @@
+{"version":3,"sources":["webpack://src/component/03-Examples/multiple.css"],"names":[],"mappings":"AAAA,KACI,UAAW,CACX,WACJ,CAUA,gCACI,SACJ","file":"main.4b766e71.chunk.css","sourcesContent":["body {\r\n    padding: 1%;\r\n    margin: 0px 1%;\r\n}\r\n\r\nbutton{\r\n\r\n    margin: 1%;\r\n}\r\n.form-group{\r\n    margin: 1%;\r\n}\r\n\r\nfooter h5,h4 {\r\n    margin:1% 1%;\r\n}"]}
