@@ -1,0 +1,16 @@
+body {
+    padding: 70px;
+    margin: 0px 10%;
+}
+
+button{
+
+    margin: 10px;
+}
+.form-group{
+    margin: 10px;
+}
+
+footer h2,h4 {
+    margin:1% 5%;
+}
