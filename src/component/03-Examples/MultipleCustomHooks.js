@@ -51,7 +51,9 @@ export const MultipleCustomHooks = () => {
                 card text-dark bg-light mb-3
                 text-center
             ">
+                <a href="https://www.linkedin.com/in/clemente-quintana-pozo/" target="_blank">
                 <h5>Clemente Quintana Pozo</h5>
+                </a>
                 <br/>
                 <h6>Desarrollador de Aplicaciones Multiplataforma</h6>
             </footer>
