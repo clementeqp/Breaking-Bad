@@ -14,10 +14,12 @@ export const MultipleCustomHooks = () => {
     console.log(author, quote);
 
     return (
-        <div>
-            <h1>Breaking Bad</h1>
-            <h5>Frases célebres</h5>
+        <div >
+            <br/>
+            <h1 className="text-center">Breaking Bad</h1>
+            <h5 className="text-center">Frases célebres</h5>
             <hr/>
+            <br/>
             {
                 loading
                 ?
@@ -28,28 +30,30 @@ export const MultipleCustomHooks = () => {
                     )
                     :
                     (
-                        <blockquote className="blockquote text-end">
-                        <h3 className="mb-0">{quote}</h3>
+                        <blockquote className="blockquote">
+                        <p className="mb-0">{quote}</p>
                         <br/>
                         <footer 
-                        className=" text-danger">
-                            <h4>{author}</h4>
+                        className=" text-danger text-end">
+                            <h5>{author}</h5>
                         </footer>
                         </blockquote> 
                     )
             }
-
-            <button className="btn btn-info"
+            <br/>
+            <button class="btn btn-outline-success btn-sm"
                     onClick={increment}
             >
                 Siguiente
             </button>
-            <br/><br/><br/>
+            <br/>
             <footer className="
                 card text-dark bg-light mb-3
+                text-center
             ">
-                <h4 className="text-end">Clemente Quintana Pozo</h4>
-                <h5>Desarrollador de Aplicaciones Multiplataforma</h5>
+                <h5>Clemente Quintana Pozo</h5>
+                <br/>
+                <h6>Desarrollador de Aplicaciones Multiplataforma</h6>
             </footer>
 
         </div>
